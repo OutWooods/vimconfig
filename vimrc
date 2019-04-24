@@ -1,1 +1,1 @@
-set number
+set relativenumber  " Show relative line numbers
