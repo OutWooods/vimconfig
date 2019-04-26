@@ -18,7 +18,7 @@ set synmaxcol=2048                  " disable syntax highlighting on super-long 
 set laststatus=2                    " always show status bar
 
 "---------- Settings ----------"
-set visualbell          " blink cursor on error rather than beeping
+set belloff=all         " no flashing in vim
 set undolevels=1000     " history depth
 set mouse=a             " enable mouse clicks
 set formatoptions-=cr   " use unix line endings
