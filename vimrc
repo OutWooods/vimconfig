@@ -35,6 +35,7 @@ set wrap            " wrap long lines
 filetype plugin indent on
 set autoindent      " auto-indent
 set smartindent     " better auto-indent
+nnoremap - :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>  " Remove all trailing whitespace by pressing -
 
 "---------- Mappings  ----------"
 "" opens a new tab with the vimrc
