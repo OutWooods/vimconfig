@@ -39,10 +39,10 @@ nnoremap - :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>  " Remove all tra
 
 "---------- Mappings  ----------"
 "" opens a new tab with the vimrc
-nmap <leader>ev :tabedit $MYVIMRC<cr> 
+nmap <leader>ev :tabedit $MYVIMRC<cr>
 
 
-"" Auto-commands 
+"---------- Auto-commands --------"
 "Automatically source the Vimrc on save
 augroup auto-source
    autocmd!
