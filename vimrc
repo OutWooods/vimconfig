@@ -45,6 +45,6 @@ nmap <leader>ev :tabedit $MYVIMRC<cr>
 "" Auto-commands 
 "Automatically source the Vimrc on save
 augroup auto-source
-   !autocmd
+   autocmd!
    autocmd BufWritePost .vimrc source %
 augroup END
