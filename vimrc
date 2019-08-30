@@ -6,6 +6,7 @@ set noexrc          " don't use ~/.exrc config
 nnoremap Y y$                   " make Y consistent with D & C
 set backspace=indent,eol,start  " backspace behaves 'normally'
 let mapleader = ','             " , is simpler leader key
+inoremap jk <Esc>               " jk to escape insert mode
 
 "---------- Appearance ----------"
 syntax on                           " enable syntax highlighting
@@ -43,6 +44,7 @@ nmap <leader>ev :tabedit $MYVIMRC<cr>
 
 
 "---------- Auto-commands --------"
+
 "Automatically source the Vimrc on save
 augroup auto-source
    autocmd!
